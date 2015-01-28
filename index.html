@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XHTML5 Template</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+  <h1>MOVIE SEARCH</h1>
+
+  <input type="text" id="movieQuery" value="">
+  <button id="Go">Go</button>
+
+  <div class="columns">
+
+    <div>
+      <div class="listings"><h2>Movie Results</h2></div>
+      <ul id="titles"></ul>
+    </div>
+
+    <div id="details">
+      <h3 id="title"></h3>
+      <h4 id="year"></h4>
+      <h5 id="imdbID"></h5>
+    </div>
+
+  </div>
+
+  <script src="jquery.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+</body>
+</html>
